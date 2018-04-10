@@ -42,5 +42,3 @@ Event is thrown on clicking an item. Returns clicked item as _$event_ param.
     </ion-chip>
 </wf-scrollable-list>
 ```
-
-![ScrollableList](https://github.com/webfactor/ionic-lib/blob/master/screenshots/scrollable-list.png)
