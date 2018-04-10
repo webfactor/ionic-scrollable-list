@@ -1,0 +1,17 @@
+{
+    "name": "@webfactor/ionic-scrollable-list",
+    "version": "3.0.0",
+    "repository": {
+        "type": "git",
+        "url": "url"
+    },
+    "keywords": ["angular"],
+    "license": "MIT",
+    "main": "./bundles/ionic-scrollable-list.umd.js",
+    "es2015": "./esm2015/ionic-scrollable-list.js",
+    "module": "./esm5/ionic-scrollable-list.es5.js",
+    "typings": "./ionic-scrollable-list.d.ts",
+    "peerDependencies": {
+        "ionic-angular": "^3.9.2"
+    }
+}
