@@ -8,11 +8,11 @@ import { Component, EventEmitter, Input, Output } from '@angular/core';
 export class ScrollableListComponent {
     @Input() items: any[] = [];
     @Input() display: string = 'card';
-    @Input() color: string = '';
-    @Input() colorClicked: string = '';
-    @Input() iconColor: string = '';
-    @Input() iconColorClicked: string = '';
     @Input() activeIndex?: number = null;
+    @Input() color?: string;
+    @Input() colorSelected?: string;
+    @Input() iconColor?: string;
+    @Input() iconColorSelected?: string;
 
     @Output() itemClick: EventEmitter<any> = new EventEmitter();
 
