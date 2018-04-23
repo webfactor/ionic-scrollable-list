@@ -16,6 +16,11 @@ export class ScrollableListComponent {
 
     @Output() itemClick: EventEmitter<any> = new EventEmitter();
 
+    ngOnInit() {
+        if(!this.colorSelected) this.colorSelected = this.color;
+        if(!this.iconColorSelected) this.iconColorSelected = this.iconColor;
+    }
+
     getImage(item: any): string {
         return item.imageUrl || null;
     }
