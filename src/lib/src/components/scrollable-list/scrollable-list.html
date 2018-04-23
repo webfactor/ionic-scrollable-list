@@ -10,7 +10,7 @@
                     </ion-card-content>
                 </ion-card>
                 
-                <ion-chip (click)="onItemClick(item, i)" [color]="(i == activeIndex ? colorSelected : color)" *ngIf="display == 'chip'">
+                <ion-chip [ngClass]="item.icon ? '' : 'no-icon'" (click)="onItemClick(item, i)" [color]="(i == activeIndex ? colorSelected : color)" *ngIf="display == 'chip'">
                     <ion-avatar *ngIf="getImage(item)">
                         <img [src]="getImage(item)">
                     </ion-avatar>
