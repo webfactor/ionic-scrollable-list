@@ -33,7 +33,7 @@
     "annotateForClosureCompiler": true,
     "strictMetadataEmit": true,
     "flatModuleOutFile": "index.js",
-    "flatModuleId": "ionic-scrollable-list",
+    "flatModuleId": "@webfactor/ionic-scrollable-list",
     "skipTemplateCodegen": true
   }
 }
