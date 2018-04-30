@@ -7,19 +7,14 @@ import { Component, EventEmitter, Input, Output } from '@angular/core';
 })
 export class ScrollableListComponent {
     @Input() items: any[] = [];
-    @Input() display: string = 'card';
+    @Input() display = 'card';
     @Input() activeIndex?: number = null;
-    @Input() color?: string;
-    @Input() colorSelected?: string;
-    @Input() iconColor?: string;
-    @Input() iconColorSelected?: string;
+    @Input() color = 'light';
+    @Input() colorSelected = 'light';
+    @Input() iconColor = 'light';
+    @Input() iconColorSelected = 'light';
 
     @Output() itemClick: EventEmitter<any> = new EventEmitter();
-
-    ngOnInit() {
-        if(!this.colorSelected) this.colorSelected = this.color;
-        if(!this.iconColorSelected) this.iconColorSelected = this.iconColor;
-    }
 
     getImage(item: any): string {
         return item.imageUrl || null;
@@ -31,6 +26,6 @@ export class ScrollableListComponent {
 
     onItemClick(item: any, index: number): void {
         this.activeIndex = index;
-        this.itemClick.emit({item, index});
+        this.itemClick.emit({ item, index });
     }
 }

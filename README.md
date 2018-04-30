@@ -30,22 +30,22 @@ The index of the currently selected Item. Use this to select an item by default.
 ```typescript
 color?: string
 ```
-Background color for the items. Use colors defined in _variables.scss_ file.
+Default: 'light'. Background color for the items. Use colors defined in _variables.scss_ file.
 
 ```typescript
 colorClicked?: string
 ```
-Background color of the currently selected item. Use colors defined in _variables.scss_ file.
+Default: 'light'. Background color of the currently selected item. Use colors defined in _variables.scss_ file.
 
 ```typescript
 iconColor?: string
 ```
-Background color for the icons in the chip display. Use colors defined in _variables.scss_ file.
+Default: 'light'. Background color for the icons in the chip display. Use colors defined in _variables.scss_ file.
 
 ```typescript
 iconColorClicked?: string
 ```
-Background color of the selected item's icon in the chip display. Use colors defined in _variables.scss_ file.
+Default: 'light'. Background color of the selected item's icon in the chip display. Use colors defined in _variables.scss_ file.
 
 ```typescript
 (itemClick)
