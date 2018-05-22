@@ -1,35 +1,39 @@
 {
-    "compilerOptions": {
-        "allowSyntheticDefaultImports": true,
-        "declaration": true,
-        "stripInternal": false,
-        "experimentalDecorators": true,
-        "noUnusedParameters": false,
-        "strictNullChecks": false,
-        "importHelpers": true,
-        "newLine": "lf",
-        "module": "es2015",
-        "moduleResolution": "node",
-        "outDir": "../dist/packages/ionic-scrollable-list",
-        "rootDir": ".",
-        "sourceMap": true,
-        "inlineSources": true,
-        "target": "es2015",
-        "lib": ["es2015", "dom"],
-        "skipLibCheck": true,
-        "types": [],
-        "baseUrl": ".",
-        "paths": {
-            "ionic-scrollable-list": ["../dist/packages/ionic-scrollable-list"]
-        },
-        "typeRoots": ["./node_modules/@types/"]
+  "compilerOptions": {
+    "allowSyntheticDefaultImports": true,
+    "declaration": true,
+    "stripInternal": false,
+    "experimentalDecorators": true,
+    "noUnusedParameters": false,
+    "strictNullChecks": false,
+    "importHelpers": true,
+    "newLine": "lf",
+    "module": "es2015",
+    "moduleResolution": "node",
+    "outDir": "../dist/packages/ionic-scrollable-list",
+    "rootDir": ".",
+    "sourceMap": true,
+    "inlineSources": true,
+    "target": "es2015",
+    "lib": ["es2015", "dom"],
+    "skipLibCheck": true,
+    "types": [],
+    "baseUrl": ".",
+    "paths": {
+      "ionic-scrollable-list": ["../dist/packages/ionic-scrollable-list"]
     },
-    "files": ["public_api.ts"],
-    "angularCompilerOptions": {
-        "annotateForClosureCompiler": true,
-        "strictMetadataEmit": true,
-        "flatModuleOutFile": "index.js",
-        "flatModuleId": "@webfactor/ionic-scrollable-list",
-        "skipTemplateCodegen": true
-    }
+    "typeRoots": [
+      "./node_modules/@types/"
+    ]
+  },
+  "files": [
+    "public_api.ts"
+  ],
+  "angularCompilerOptions": {
+    "annotateForClosureCompiler": true,
+    "strictMetadataEmit": true,
+    "flatModuleOutFile": "index.js",
+    "flatModuleId": "@webfactor/ionic-scrollable-list",
+    "skipTemplateCodegen": true
+  }
 }

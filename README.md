@@ -23,14 +23,34 @@ display?: 'card' | 'chip'
 Default: 'card'. Show items as _ion-card_ or _ion-chip_.  No icon is shown in Card Mode.
 
 ```typescript
+activeIndex?: number = null
+```
+The index of the currently selected Item. Use this to select an item by default.
+
+```typescript
 color?: string
 ```
-Default: 'light'. Shows chips in the corresponding color. Use colors defined in _variables.scss_ file.
+Default: 'light'. Background color for the items. Use colors defined in _variables.scss_ file.
+
+```typescript
+colorClicked?: string
+```
+Default: 'light'. Background color of the currently selected item. Use colors defined in _variables.scss_ file.
+
+```typescript
+iconColor?: string
+```
+Default: 'light'. Background color for the icons in the chip display. Use colors defined in _variables.scss_ file.
+
+```typescript
+iconColorClicked?: string
+```
+Default: 'light'. Background color of the selected item's icon in the chip display. Use colors defined in _variables.scss_ file.
 
 ```typescript
 (itemClick)
 ```
-Event is thrown on clicking an item. Returns clicked item as _$event_ param.
+Event is thrown on clicking an item. Returns clicked item & its index as _$event_ param.
 
 ## Example
 ```html
