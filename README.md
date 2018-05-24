@@ -33,7 +33,7 @@ color?: string
 Default: 'light'. Background color for the items. Use colors defined in _variables.scss_ file.
 
 ```typescript
-colorClicked?: string
+colorSelected?: string
 ```
 Default: 'light'. Background color of the currently selected item. Use colors defined in _variables.scss_ file.
 
@@ -43,7 +43,7 @@ iconColor?: string
 Default: 'light'. Background color for the icons in the chip display. Use colors defined in _variables.scss_ file.
 
 ```typescript
-iconColorClicked?: string
+iconColorSelected?: string
 ```
 Default: 'light'. Background color of the selected item's icon in the chip display. Use colors defined in _variables.scss_ file.
 
