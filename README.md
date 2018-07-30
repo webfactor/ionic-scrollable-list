@@ -1,6 +1,6 @@
 # Scrollable List
 
-Shows horizontal scrollable list items.
+Shows horizontal scrollable list items..
 Looks quite neat in toolbars. 👌
 
 ## Installation
